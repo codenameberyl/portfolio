@@ -87,8 +87,8 @@ const commands = {
       "",
       "Options:",
       "  Email    → abiola@onasanya.dev",
-      "  LinkedIn → linkedin.com/in/abiolaonasanya",
-      "  GitHub   → github.com/abiolaonasanya",
+      "  LinkedIn → linkedin.com/in/codenameberyl",
+      "  GitHub   → github.com/codenameberyl",
       "",
       "Scroll down to access the contact form.",
     ]
@@ -97,9 +97,9 @@ const commands = {
     output: [
       "Social Links:",
       "",
-      "  GitHub   → github.com/abiolaonasanya",
-      "  LinkedIn → linkedin.com/in/abiolaonasanya",
-      "  Twitter  → twitter.com/abiolaonasanya",
+      "  GitHub   → github.com/codenameberyl",
+      "  LinkedIn → linkedin.com/in/codenameberyl",
+      "  Twitter  → twitter.com/codenameberyl",
       "  Email    → abiola@onasanya.dev",
     ]
   },
@@ -207,7 +207,7 @@ export function LiveTerminal() {
               <div className="w-3 h-3 rounded-full bg-destructive/80" />
               <div className="w-3 h-3 rounded-full bg-accent/80" />
               <div className="w-3 h-3 rounded-full bg-primary/80" />
-              <span className="ml-2 font-mono text-sm text-muted-foreground">abiola@neural-net ~ zsh</span>
+              <span className="ml-2 font-mono text-sm text-muted-foreground">abiola@root ~ zsh</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="px-2 py-0.5 bg-primary/10 rounded text-xs font-mono text-primary">Interactive</span>
