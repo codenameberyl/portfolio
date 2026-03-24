@@ -191,7 +191,7 @@ export function LiveTerminal() {
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">
             Interactive CLI
           </h2>
-        </motion.div>
+        </motion.div>s
 
         {/* Terminal window */}
         <motion.div
