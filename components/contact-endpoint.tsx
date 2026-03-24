@@ -5,9 +5,9 @@ import { useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
 
 const socialLinks = [
-  { name: "GitHub", url: "https://github.com/abiolaonasanya", icon: "◇" },
-  { name: "LinkedIn", url: "https://linkedin.com/in/abiolaonasanya", icon: "◈" },
-  { name: "Twitter", url: "https://twitter.com/abiolaonasanya", icon: "⬡" },
+  { name: "GitHub", url: "https://github.com/codenameberyl", icon: "◇" },
+  { name: "LinkedIn", url: "https://linkedin.com/in/codenameberyl", icon: "◈" },
+  { name: "Twitter", url: "https://twitter.com/codenameberyl", icon: "⬡" },
   { name: "Email", url: "mailto:abiola@onasanya.dev", icon: "◆" },
 ]
 
