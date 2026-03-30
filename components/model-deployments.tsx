@@ -49,6 +49,22 @@ export function ModelDeployments() {
   return (
     <section id="deployments" className="relative py-32 px-6" ref={ref}>
       <div className="max-w-6xl mx-auto">
+        {/* Section header */}
+        <motion.div
+          className="mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6 }}
+        >
+          <div className="flex items-center gap-3 mb-4">
+            <div className="w-2 h-2 bg-primary rounded-full animate-pulse-glow" />
+            <span className="font-mono text-sm text-primary">03 // MODEL_DEPLOYMENTS</span>
+          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+            Active Deployments
+          </h2>
+        </motion.div>
+
         <div className="grid md:grid-cols-2 gap-6">
           {projects.map((project, i) => (
             <motion.div

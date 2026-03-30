@@ -14,9 +14,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'AI Engineer Portfolio | System Interface',
-  description: 'Software Engineer transitioning into AI/ML Engineering. Building intelligent systems from data to deployment.',
-  generator: 'v0.app',
+  title: 'AI Engineer Portfolio | Abiola Onasanya',
+  description: 'MSc Artificial Intelligence student at Sheffield Hallam University. Software Engineer transitioning into AI/ML Engineering. Building intelligent systems from data to deployment.',
   icons: {
     icon: [
       {

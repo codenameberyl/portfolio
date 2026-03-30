@@ -230,6 +230,24 @@ export function ContactEndpoint() {
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ duration: 0.6, delay: 0.5 }}
         >
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div className="space-y-2">
+              <div className="text-xs font-mono text-muted-foreground">Location</div>
+              <div className="text-foreground font-mono">Ashington, UK</div>
+            </div>
+            <div className="space-y-2">
+              <div className="text-xs font-mono text-muted-foreground">Phone</div>
+              <a href="tel:+447350169698" className="text-foreground font-mono hover:text-primary transition-colors">
+                +44 7350 169698
+              </a>
+            </div>
+            <div className="space-y-2">
+              <div className="text-xs font-mono text-muted-foreground">Email</div>
+              <a href="mailto:abiolaonasanya22@gmail.com" className="text-foreground font-mono hover:text-primary transition-colors">
+                abiolaonasanya22@gmail.com
+              </a>
+            </div>
+          </div>
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm font-mono text-muted-foreground">
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 bg-primary rounded-full" />

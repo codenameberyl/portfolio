@@ -6,60 +6,62 @@ import { useRef, useState } from 'react'
 
 const experiences = [
   {
-    id: "swe-senior",
-    period: "2022 — Present",
-    title: "Software Engineer",
-    company: "Tech Company",
-    type: "FULL_TIME",
-    description: "Leading development of AI-powered features and full-stack applications. Architecting scalable systems and mentoring junior developers.",
+    id: "msc",
+    period: "Sep 2025 — Sep 2027",
+    title: "MSc Artificial Intelligence",
+    company: "Sheffield Hallam University, UK",
+    type: "EDUCATION",
+    description: "Advanced studies in Machine Learning, Computer Vision, Deep Learning, and AI systems design.",
     achievements: [
-      "Built ML pipeline reducing processing time by 60%",
-      "Led team of 4 engineers on critical projects",
-      "Implemented CI/CD reducing deployment time by 75%",
+      "Advanced Robotics and AI – 81% (Robotic arm vision system)",
+      "Deep Neural Networks – 81% (Story reasoning model)",
+      "Research focus: NLP & Computer Vision",
     ],
-    stack: ["Python", "TypeScript", "AWS", "PyTorch"]
+    stack: ["PyTorch", "TensorFlow", "Computer Vision", "NLP"]
+  },
+  {
+    id: "swe-validators",
+    period: "Aug 2022 — Aug 2025",
+    title: "Software Engineer",
+    company: "Validators Innovation, Lagos",
+    type: "FULL_TIME",
+    description: "Designed and implemented scalable backend systems and RESTful APIs. Translated business requirements into efficient technical architectures.",
+    achievements: [
+      "Designed scalable backend systems improving performance",
+      "Implemented RESTful APIs for streamlined operations",
+      "Collaborated with teams to deliver system enhancements",
+      "Produced technical documentation for decision-making",
+    ],
+    stack: ["Python", "Django", "PostgreSQL", "REST APIs"]
   },
   {
     id: "swe-junior",
-    period: "2021 — 2022",
+    period: "Dec 2021 — Aug 2022",
     title: "Junior Software Engineer",
-    company: "Startup Inc",
+    company: "FTL, Lagos",
     type: "FULL_TIME",
-    description: "Developed and maintained web applications. Collaborated with cross-functional teams to deliver product features.",
+    description: "Supported development and testing of applications. Diagnosed and resolved software issues improving system stability.",
     achievements: [
-      "Delivered 15+ features ahead of schedule",
-      "Improved API response time by 40%",
-      "Contributed to open-source projects",
+      "Contributed to feature development",
+      "Improved system stability and reduced faults",
+      "Participated in application performance improvements",
+      "Collaborated in collaborative engineering environment",
     ],
-    stack: ["JavaScript", "React", "Node.js", "PostgreSQL"]
+    stack: ["Python", "JavaScript", "Software Testing"]
   },
   {
-    id: "intern",
-    period: "2020 — 2021",
-    title: "Software Engineering Intern",
-    company: "Enterprise Corp",
-    type: "INTERNSHIP",
-    description: "Assisted in development of internal tools and automation scripts. Gained experience in agile methodologies.",
-    achievements: [
-      "Automated report generation saving 10hrs/week",
-      "Built dashboard for team analytics",
-      "Received full-time offer",
-    ],
-    stack: ["Python", "Django", "JavaScript", "MySQL"]
-  },
-  {
-    id: "msc",
-    period: "2024 — Present",
-    title: "MSc Artificial Intelligence",
-    company: "University",
+    id: "bsc",
+    period: "Jan 2019 — Aug 2022",
+    title: "BSc Computer Science",
+    company: "ESAE University, Benin Republic",
     type: "EDUCATION",
-    description: "Advanced studies in machine learning, deep learning, natural language processing, and AI systems design.",
+    description: "Foundational knowledge in software engineering, algorithms, and database systems.",
     achievements: [
-      "Focus: NLP & Computer Vision",
-      "Research: Transformer architectures",
-      "GPA: Distinction track",
+      "Core CS fundamentals and algorithms",
+      "Database systems and design",
+      "Software engineering principles",
     ],
-    stack: ["PyTorch", "TensorFlow", "BERT", "Computer Vision"]
+    stack: ["Java", "C++", "SQL", "Data Structures"]
   },
 ]
 

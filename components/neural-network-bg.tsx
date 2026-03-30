@@ -140,7 +140,7 @@ export function NeuralNetworkBg() {
         ctx.lineTo(toNode.x, toNode.y)
         
         const gradient = ctx.createLinearGradient(fromNode.x, fromNode.y, toNode.x, toNode.y)
-        const alpha = conn.active ? 0.15 : 0.05
+        const alpha = conn.active ? 0.05 : 0.02
         gradient.addColorStop(0, `rgba(255, 214, 0, ${alpha})`)
         gradient.addColorStop(1, `rgba(255, 214, 0, ${alpha * 0.5})`)
         
@@ -177,8 +177,8 @@ export function NeuralNetworkBg() {
 
         // Glowing data packet
         const packetGradient = ctx.createRadialGradient(x, y, 0, x, y, 8)
-        packetGradient.addColorStop(0, 'rgba(255, 214, 0, 0.8)')
-        packetGradient.addColorStop(0.5, 'rgba(255, 214, 0, 0.3)')
+        packetGradient.addColorStop(0, 'rgba(255, 214, 0, 0.25)')
+        packetGradient.addColorStop(0.5, 'rgba(255, 214, 0, 0.1)')
         packetGradient.addColorStop(1, 'rgba(255, 214, 0, 0)')
         
         ctx.beginPath()
@@ -197,7 +197,7 @@ export function NeuralNetworkBg() {
             node.x, node.y, 0,
             node.x, node.y, 20
           )
-          glowGradient.addColorStop(0, `rgba(255, 214, 0, ${0.3 * pulsePhase})`)
+          glowGradient.addColorStop(0, `rgba(255, 214, 0, ${0.1 * pulsePhase})`)
           glowGradient.addColorStop(1, 'rgba(255, 214, 0, 0)')
           
           ctx.beginPath()
@@ -210,16 +210,16 @@ export function NeuralNetworkBg() {
         ctx.beginPath()
         ctx.arc(node.x, node.y, node.active ? 4 : 3, 0, Math.PI * 2)
         ctx.fillStyle = node.active 
-          ? `rgba(255, 214, 0, ${0.6 + pulsePhase * 0.4})`
-          : 'rgba(255, 214, 0, 0.2)'
+          ? `rgba(255, 214, 0, ${0.15 + pulsePhase * 0.15})`
+          : 'rgba(255, 214, 0, 0.05)'
         ctx.fill()
 
         // Node border
         ctx.beginPath()
         ctx.arc(node.x, node.y, node.active ? 6 : 4, 0, Math.PI * 2)
         ctx.strokeStyle = node.active 
-          ? `rgba(255, 214, 0, ${0.4 + pulsePhase * 0.3})`
-          : 'rgba(255, 214, 0, 0.1)'
+          ? `rgba(255, 214, 0, ${0.1 + pulsePhase * 0.1})`
+          : 'rgba(255, 214, 0, 0.03)'
         ctx.lineWidth = 1
         ctx.stroke()
       })

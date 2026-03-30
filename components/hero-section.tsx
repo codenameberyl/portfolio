@@ -144,7 +144,7 @@ export function HeroSection() {
           animate={{ opacity: showContent ? 1 : 0 }}
           transition={{ delay: 0.5 }}
         >
-          Building intelligent systems from data to deployment
+          Transitioning into AI/ML Engineering. Building intelligent systems from data to deployment.
         </motion.p>
 
         {/* CTA Buttons */}
